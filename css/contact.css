@@ -1,0 +1,136 @@
+/* contact */
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Poppins-Regular', sans-serif;
+    background-color: #2f2f2f;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-bg {
+    height: 546px;
+}
+
+.footer-bg img {
+    display: none;
+}
+
+.footer-bg {
+    background: url(../img/Slice1.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none;
+}
+
+.bg-texts {
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footer-text-title {
+    text-transform: uppercase;
+    font-size: .855rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    section, .footer-bg {
+        position: relative;
+    }
+
+    .footer-bg img {
+        display: block;
+    }
+    
+    .footer-bg {
+        background: url(../img/...png);
+        height: unset;
+    } 
+
+    .bg-texts {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -45%); 
+    }
+
+    .col-1 p {
+        font-size: 12px;
+    }
+
+    .footer-text-title {
+        margin-bottom: 10px;
+    }
+
+    .mobile-number {
+        margin: 10px 0;
+    }
+
+    .footer-text {
+        text-transform: uppercase;
+    }
+
+    .col-1,
+    .col-2 {
+        width: 250px;
+    }
+
+    .map-location {
+        position: absolute;
+        top: 66%;
+        left: 0;
+        z-index: -10;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .col-1,
+    .col-2 {
+        width: 300px;
+    }
+
+    .col-1 {
+        align-self: center;
+    }
+
+    .footer-text p {
+        font-size: 16px;
+    }
+
+    .width-space {
+        width: 100px;
+        height: 10px;
+    }
+    
+}
+

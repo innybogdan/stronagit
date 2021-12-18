@@ -1,0 +1,71 @@
+/* typography */
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(../fonts/Poppins-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Semi';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../fonts/Roboto-Thin.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pt-mono';
+    src: url(../fonts/PTMono-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pt-sans';
+    src: url(../fonts/PTSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    h1 {
+        font-size: 42px;
+    }
+
+    /* p {
+        font-size: 24px;
+    } */
+
+}
